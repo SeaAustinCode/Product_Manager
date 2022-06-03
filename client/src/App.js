@@ -18,7 +18,7 @@ const App = (props) => {
 
 return (
   <div className="App">
-    <p>This is all products {JSON.stringify(allProducts)}</p>
+    {/* <p>This is all products {JSON.stringify(allProducts)}</p> */}
     <Routes>
       <Route path={"/"} element={<Main />} />
       <Route path={"/products/:id"} element={<Detail />} />
